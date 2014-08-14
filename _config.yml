@@ -1,0 +1,12 @@
+# Site settings
+title: devgar
+email: dev.gardo@gmail.com
+description: "Edgar Albalate's github user page. My projects, gists and other things should be here."
+baseurl: ""
+url: "http://yourdomain.com"
+twitter_username: gardorko
+github_username:  devgar
+
+# Build settings
+markdown: kramdown
+permalink: pretty
