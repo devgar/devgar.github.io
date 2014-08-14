@@ -414,3 +414,13 @@ a:visited { color: #205caa; }
     margin: 0 0 15px; }
 
 }
+
+/* MOORE GAR MODS */
+.gar_ico{
+  margin:0 auto; position:relative;
+  height:248px; width:248px;}
+.gar_ico img{
+  height:248px; width:248px;
+  border-radius: 50%; box-shadow: 0 3px 8px black;
+  margin: 0 auto; display:block position:absolute;;
+}
