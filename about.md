@@ -4,9 +4,6 @@ title: About
 permalink: /about/
 ---
 
-Este es un sitio Jekyll básico con pequeñas modificaciones de estilo. 
-This is the base Jekyll theme. You can find out more info about customizing your Jekyll theme, as well as basic Jekyll usage documentation at [jekyllrb.com](http://jekyllrb.com/)
+Este es un sitio Jekyll básico con pequeñas modificaciones de estilo. Puede visitar el repositorio en [github.com/devgar/devgar.github.io](https://github.com/devgar/devgar.github.io).
 
-You can find the source code for the Jekyll new theme at: [github.com/jglovier/jekyll-new](https://github.com/jglovier/jekyll-new)
 
-You can find the source code for Jekyll at [github.com/jekyll/jekyll](https://github.com/jekyll/jekyll)
