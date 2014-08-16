@@ -331,6 +331,21 @@ a:visited { color: #205caa; }
 .highlight .il { color: #009999 } /* Literal.Number.Integer.Long */
 
 
+/* gar mods */
+/* ----------------------------------------------------------*/
+
+/* MOORE GAR MODS */
+#gar_ico{
+  margin:0 auto; position:relative;
+  width:124px;
+}
+#gar_ico .img{
+  width:100%; top: 4px; background-inage: url(../img/ico.jpg);
+  border-radius: 50%; box-shadow: 0 3px 8px black;
+  margin: 0 auto; display:block; position:absolute;
+}
+
+
 /* media queries */
 /* ----------------------------------------------------------*/
 
@@ -412,15 +427,12 @@ a:visited { color: #205caa; }
     clear: both;
     width: auto;
     margin: 0 0 15px; }
+  
+  #gar_ico{
+    top: 18px;
+    width: 62px;
+  }
 
 }
 
-/* MOORE GAR MODS */
-.gar_ico{
-  margin:0 auto; position:relative;
-  width:124px;}
-.gar_ico img{
-  height:124px; width:124px;
-  border-radius: 50%; box-shadow: 0 3px 8px black;
-  margin: 0 auto; display:block position:absolute;;
-}
+
