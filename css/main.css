@@ -136,7 +136,7 @@ a:visited { color: #205caa; }
 /* ----------------------------------------------------------*/
 
 .page-content {
-  padding: 80px 0 30px;
+  padding: 30px 0 30px;
   background-color: #fff;
   min-height:100%;
   box-sizing: border-box;
@@ -145,6 +145,8 @@ a:visited { color: #205caa; }
 
 /* Home styles */
 /* ----------------------------------------------------------*/
+
+.home{ padding-top:50px; }
 
 .home h1 { margin-bottom: 25px; }
 
@@ -330,9 +332,9 @@ a:visited { color: #205caa; }
 /* gar mods */
 /* ----------------------------------------------------------*/
 
-.site-header .wrap{
-  position:fixed; background:white; padding: 0 30px;
-  margin:0 -20px; left:0; right:0;
+.site-header .header-fixed{
+  position:fixed; background:white;
+  left:0; right:0; min-height:54px;
 }
 
 /* MOORE GAR MODS */
@@ -355,7 +357,7 @@ body.shortHead #gar_ico{width:62px;}
 body.shortHead #gar_ico .img_holder{
   top:12px; height:62px; width:62px;
 }
-body.shortHead .site-header .wrap{
+body.shortHead .site-header .header-fixed{
   box-shadow: 0 3px 8px black;
 }
 

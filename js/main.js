@@ -1,7 +1,7 @@
 (function(document, window){
   function analizeScroll(){
     if(location.pathname.length>1) return $('body').addClass('shortHead');
-    if($(window).scrollTop()<40)
+    if($(window).scrollTop()<10)
       $('body').removeClass('shortHead');
     else
       $('body').addClass('shortHead');
