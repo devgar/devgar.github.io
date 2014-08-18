@@ -1,10 +1,7 @@
 /* Base */
 /* ----------------------------------------------------------*/
 
-* {
-  margin: 0;
-  padding: 0;
-}
+* { margin: 0; padding: 0; }
 
 html, body { height: 100%;}
 
@@ -45,7 +42,6 @@ a:visited { color: #205caa; }
   /* border-top: 5px solid #333; /* --> I Don't like this... */
   border-bottom: 1px solid #e8e8e8;
   min-height: 56px; background-color: white;
-  position:fixed; width:100%;
 }
 
 .site-title,
@@ -334,19 +330,33 @@ a:visited { color: #205caa; }
 /* gar mods */
 /* ----------------------------------------------------------*/
 
+.site-header .wrap{
+  position:fixed; background:white;
+  margin:0 -20px; left:0; right:0;
+}
+
 /* MOORE GAR MODS */
+
 #gar_ico{
-  margin:0 auto; position:relative; width:124px;
+  margin:0 auto; position:relative; width:124px; transition: all 0.1s linear;
 }
 #gar_ico .img_holder{
-  margin: 0 auto; height: 124px; position:absolute;
+  margin: 0 auto; height: 124px; position:absolute; top:32px;
   display: block; width: 124px; background-image: url(../img/ico.jpg);
-  border-radius: 50%;
+  border-radius: 50%; background-size: 100%;  box-shadow: 0 3px 8px black;
+  transition: all 0.1s linear;
 }
 #gar_ico .img{
-  width:100%; top: 4px; opacity: 0;
-  border-radius: 50%; box-shadow: 0 3px 8px black;
-  margin: 0 auto; display:block; position:absolute;
+  opacity: 0; display: none;
+}
+
+body.shortHead #gar_ico{width:62px;}
+
+body.shortHead #gar_ico .img_holder{
+  top:12px; height:62px; width:62px;
+}
+body.shortHead .site-header .wrap{
+  box-shadow: 0 3px 8px black;
 }
 
 
